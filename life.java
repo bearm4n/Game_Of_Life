@@ -36,13 +36,13 @@ public class life
         slider_M.setLabelTable(position);
         
         JSlider slider_N = new JSlider(); 
-        slider_N.setMinorTickSpacing(25);
+        slider_N.setMinorTickSpacing(10);
         slider_N.setPaintTicks(true);
         slider_N.setPaintLabels(true);
         slider_N.setMaximum(100);
-        slider_N.setMinimum(0);
+        slider_N.setMinimum(10);
         Hashtable<Integer, JLabel> position_N = new Hashtable<Integer, JLabel>();
-        position_N.put(0, new JLabel("0"));
+        position_N.put(10, new JLabel("10"));
         position_N.put(50, new JLabel("50"));
         position_N.put(100, new JLabel("100"));
         slider_N.setLabelTable(position_N);
